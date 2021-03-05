@@ -1,4 +1,4 @@
-<style>
+
   body {
     margin: 0;
   }
@@ -11,6 +11,11 @@
   .header {
     background: skyblue;
     padding: 1rem;
+  }
+
+  .header a:hover {
+    background: #002642;
+    color: #e5dada;
   }
   .main {
     display: flex;
@@ -27,10 +32,7 @@
     padding: 1rem;
     overflow: auto;
   }
-  .sidebar-2 {
-    background: turquoise;
-    padding: 1rem;
-  }
+ 
   .footer {
     background: orange;
     padding: 1rem;
