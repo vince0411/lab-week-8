@@ -9,13 +9,13 @@
     box-sizing: border-box;
   }
   .header {
-    background: skyblue;
+    background: #db504a;
     padding: 1rem;
   }
 
   .header a:hover {
-    background: #002642;
-    color: #e5dada;
+    background: #6e8783;
+    color: #e5e5dc;
   }
   .main {
     display: flex;
@@ -23,17 +23,17 @@
     flex-grow: 1;
   }
   .sidebar {
-    background: cornflowerblue;
+    background: #6e8783;
     padding: 1rem;
   }
   .content {
     flex-grow: 1;
-    background: beige;
+    background: #e5e5dc;
     padding: 1rem;
     overflow: auto;
   }
  
   .footer {
-    background: orange;
+    background: #db504a;
     padding: 1rem;
   }
