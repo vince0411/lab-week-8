@@ -15,11 +15,17 @@
   .header {
     background: #db504a;
     padding: 1rem;
+    color: #334259
   }
 
   .header a:hover {
     background: #6e8783;
     color: #e5e5dc;
+  }
+
+  .header a{
+    text-decoration: none;
+    color: #334259
   }
 
   .main {
@@ -40,9 +46,9 @@
     overflow: auto;
   }
 
-  img {
-    margin: 10px 30px 0 0;
-    width: 50vh;
+   img {
+    margin: 15px 30px 0 0;
+    width: 300px;
     object-fit: contain;
     align-self: flex-start;
   }
