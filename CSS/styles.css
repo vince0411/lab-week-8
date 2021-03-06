@@ -1,13 +1,17 @@
 
   body {
     margin: 0;
+    display: grid;
   }
+
   .container {
     display: flex;
     flex-direction: column;
     height: 100vh;
     box-sizing: border-box;
+    color: #334259
   }
+
   .header {
     background: #db504a;
     padding: 1rem;
@@ -17,20 +21,30 @@
     background: #6e8783;
     color: #e5e5dc;
   }
+
   .main {
     display: flex;
     flex-direction: row;
-    flex-grow: 1;
+    flex-grow: 2;
   }
+  
   .sidebar {
     background: #6e8783;
     padding: 1rem;
   }
+
   .content {
     flex-grow: 1;
     background: #e5e5dc;
     padding: 1rem;
     overflow: auto;
+  }
+
+  img {
+    margin: 10px 30px 0 0;
+    width: 50vh;
+    object-fit: contain;
+    align-self: flex-start;
   }
  
   .footer {
